@@ -2,47 +2,13 @@ id,name,category
 iHFCEW,PivotalPath Composite EW Index,Composite EW
 iHFC,PivotalPath Composite Index,Composite
 iCRD,PivotalPath Credit Index,Credit
-iCRDCBA,PivotalPath Credit:Convertible Bond Arbitrage Index,Credit:Convertible Bond Arbitrage
-iCRDDSS,PivotalPath Credit:Distressed Index,Credit:Distressed
-iCRDLSC,PivotalPath Credit:Long/Short Index,Credit:Long/Short
-iCRDMST,PivotalPath Credit:Multi-Strategy Index,Credit:Multi-Strategy
-iCRDREL,PivotalPath Credit:Relative Value Index,Credit:Relative Value
-iCRDMBS,PivotalPath Credit:Structured & MBS Index,Credit:Structured & MBS
 iEQD,PivotalPath Equity Diversified Index,Equity Diversified
-iEQDALS,PivotalPath Equity Diversified:Asia Long/Short Index,Equity Diversified:Asia Long/Short
-iEQDALSFUN,PivotalPath Equity Diversified:Asia Long/Short:Fundamental Index,Equity Diversified:Asia Long/Short:Fundamental
-iEQDELS,PivotalPath Equity Diversified:Europe Long/Short Index,Equity Diversified:Europe Long/Short
-iEQDELSACT,PivotalPath Equity Diversified:Europe Long/Short:Activist Index,Equity Diversified:Europe Long/Short:Activist
-iEQDELSFUN,PivotalPath Equity Diversified:Europe Long/Short:Fundamental Index,Equity Diversified:Europe Long/Short:Fundamental
-iEQDGLS,PivotalPath Equity Diversified:Global Long/Short Index,Equity Diversified:Global Long/Short
-iEQDGLSFUN,PivotalPath Equity Diversified:Global Long/Short:Fundamental Index,Equity Diversified:Global Long/Short:Fundamental
-iEQDGLSQNT,PivotalPath Equity Diversified:Global Long/Short:Quantitative Index,Equity Diversified:Global Long/Short:Quantitative
-iEQDULS,PivotalPath Equity Diversified:U.S. Long/Short Index,Equity Diversified:U.S. Long/Short
-iEQDULSACT,PivotalPath Equity Diversified:U.S. Long/Short:Activist Index,Equity Diversified:U.S. Long/Short:Activist
-iEQDULSFUN,PivotalPath Equity Diversified:U.S. Long/Short:Fundamental Index,Equity Diversified:U.S. Long/Short:Fundamental
-iEQDULSQNT,PivotalPath Equity Diversified:U.S. Long/Short:Quantitative Index,Equity Diversified:U.S. Long/Short:Quantitative
 iEMN,PivotalPath Equity Market Neutral Index,Equity Market Neutral
 iQNT,PivotalPath Equity Quant Index,Equity Quant
 iEQS,PivotalPath Equity Sector Index,Equity Sector
-iEQSCON,PivotalPath Equity Sector:Consumer / Retail Index,Equity Sector:Consumer / Retail
-iEQSEUI,PivotalPath Equity Sector:Energy / Utilities / Industrials Index,Equity Sector:Energy / Utilities / Industrials
-iEQSFIN,PivotalPath Equity Sector:Financials Index,Equity Sector:Financials
-iEQSHLT,PivotalPath Equity Sector:Healthcare Index,Equity Sector:Healthcare
-iEQSREI,PivotalPath Equity Sector:Real Estate Index,Equity Sector:Real Estate
-iEQSTMT,PivotalPath Equity Sector:Technology / Media / Telecom Index,Equity Sector:Technology / Media / Telecom
 iEVD,PivotalPath Event Driven Index,Event Driven
-iEVDESS,PivotalPath Event Driven:Equity Special Situations Index,Event Driven:Equity Special Situations
-iEVDMER,PivotalPath Event Driven:Merger Arbitrage Index,Event Driven:Merger Arbitrage
-iEVDMEV,PivotalPath Event Driven:Multi-Event Index,Event Driven:Multi-Event
 iGBM,PivotalPath Global Macro Index,Global Macro
-iGBMCOM,PivotalPath Global Macro:Commodities Index,Global Macro:Commodities
-iGBMDSC,PivotalPath Global Macro:Discretionary Index,Global Macro:Discretionary
-iGBMMMA,PivotalPath Global Macro:Multi-Manager Index,Global Macro:Multi-Manager
-iGBMQNT,PivotalPath Global Macro:Quantitative Index,Global Macro:Quantitative
-iGBMRPM,PivotalPath Global Macro:Risk Premia Index,Global Macro:Risk Premia
 iMFT,PivotalPath Managed Futures Index,Managed Futures
-iMFTNTF,PivotalPath Managed Futures:Non-Trend Index,Managed Futures:Non-Trend
-iMFTTFO,PivotalPath Managed Futures:Trend Following Index,Managed Futures:Trend Following
 iMST,PivotalPath Multi-Strategy Index,Multi-Strategy
 iRVI,PivotalPath RV Index,RV INDEX
 iVOL,PivotalPath Volatility Trading Index,Volatility Trading
