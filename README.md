@@ -98,5 +98,7 @@ against anonymized peer distributions. See the full platform →
 
 ## License
 
-Free to use with attribution. See [`LICENSE`](LICENSE).
-<!-- TODO: confirm the license you want and add a LICENSE file (e.g. CC BY 4.0). -->
+Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE)
+— free to use, share, and adapt, including commercially, as long as you give
+appropriate credit to PivotalPath.
+
