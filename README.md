@@ -133,6 +133,6 @@ appropriate credit to PivotalPath.
 
 - **Sharpe** is annualised and excess of the risk-free rate (3-month U.S. T-Bill, FRED `DGS3MO`), consistent with PivotalPath's published factsheets.
 - **Return/vol** is the raw ratio of annualised return to annualised volatility, with *no* risk-free subtraction. It is not a Sharpe ratio and should not be quoted as one.
-- **Beta**, **R²**, correlation and alpha come from a regression of **raw** index returns on **raw** S&P 500 **total return** — no risk-free subtraction, so `alpha_sp500_ann` is the annualised regression intercept, not Jensen's alpha. Read beta and R² together: where R² is low the index is largely unexplained by equity market moves, and the corresponding alpha carries little meaning.
+- **Beta**, **R²**, correlation and the intercept come from a regression of **raw** index returns on **raw** S&P 500 **total return** — no risk-free subtraction. The intercept is published as `intercept_sp500_ann`, *not* as alpha: Jensen's alpha is defined on excess returns and this is not that. Read beta and R² together: where R² is low the index is largely unexplained by equity market moves, and the corresponding intercept carries little meaning.
 
 <!-- STATS:END -->
