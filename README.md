@@ -120,11 +120,11 @@ appropriate credit to PivotalPath.
 |---|---|---|---|---|---|---|---|---|---|
 | `iCRD` | 1998-01 | 342 | 8.96% | 4.94% | 1.33 | 1.81 | -17.51% | 0.17 | 0.29 |
 | `iEQD` | 1998-01 | 342 | 11.21% | 7.30% | 1.21 | 1.54 | -18.50% | 0.37 | 0.60 |
-| `iEQS` | 1998-01 | 342 | 12.11% | 9.37% | 1.05 | 1.29 | -26.11% | 0.43 | 0.50 |
+| `iEQS` | 1998-01 | 342 | 12.11% | 9.37% | 1.05 | 1.29 | -26.11% | 0.43 | 0.49 |
 | `iEVD` | 1998-01 | 342 | 9.84% | 7.13% | 1.06 | 1.38 | -21.24% | 0.31 | 0.44 |
-| `iGBM` | 1998-01 | 342 | 8.55% | 6.07% | 1.03 | 1.41 | -9.43% | 0.02 | 0.00 |
-| `iHFC` | 1998-01 | 342 | 9.71% | 4.81% | 1.52 | 2.02 | -12.82% | 0.19 | 0.38 |
-| `iMFT` | 1998-01 | 342 | 7.55% | 9.76% | 0.58 | 0.77 | -15.36% | -0.11 | 0.03 |
+| `iGBM` | 1998-01 | 342 | 8.55% | 6.07% | 1.03 | 1.41 | -9.43% | 0.01 | 0.00 |
+| `iHFC` | 1998-01 | 342 | 9.71% | 4.81% | 1.52 | 2.02 | -12.82% | 0.19 | 0.37 |
+| `iMFT` | 1998-01 | 342 | 7.55% | 9.76% | 0.58 | 0.77 | -15.36% | -0.12 | 0.03 |
 | `iMST` | 1998-01 | 342 | 9.25% | 4.57% | 1.51 | 2.02 | -15.05% | 0.13 | 0.19 |
 | `iQNT` | 2003-01 | 282 | 6.15% | 4.55% | 0.95 | 1.35 | -19.18% | 0.13 | 0.18 |
 | `iVOL` | 1998-01 | 342 | 9.62% | 6.34% | 1.16 | 1.52 | -8.41% | -0.05 | 0.02 |
@@ -133,6 +133,6 @@ appropriate credit to PivotalPath.
 
 - **Sharpe** is annualised and excess of the risk-free rate (3-month U.S. T-Bill, FRED `DGS3MO`), consistent with PivotalPath's published factsheets.
 - **Return/vol** is the raw ratio of annualised return to annualised volatility, with *no* risk-free subtraction. It is not a Sharpe ratio and should not be quoted as one.
-- **Beta** and **R²** are versus the S&P 500 **total return** index. Read them together: where R² is low the index is largely unexplained by equity market moves, and the corresponding alpha carries little meaning.
+- **Beta**, **R²**, correlation and alpha come from a regression of **raw** index returns on **raw** S&P 500 **total return** — no risk-free subtraction, so `alpha_sp500_ann` is the annualised regression intercept, not Jensen's alpha. Read beta and R² together: where R² is low the index is largely unexplained by equity market moves, and the corresponding alpha carries little meaning.
 
 <!-- STATS:END -->
