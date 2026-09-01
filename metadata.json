@@ -1,0 +1,13 @@
+{
+  "as_of": "2026-06",
+  "updated_at": "2026-09-01T15:37:18-0400",
+  "refresh_cadence": "daily",
+  "reporting_lag": "The most recent month is withheld until it is complete, so as_of normally trails the current month by one to two months. A file refreshed today can legitimately carry an older as_of.",
+  "files": {
+    "index_catalog.csv": "published indices - id, name, abstract",
+    "index_catalog_extended.csv": "sub-indices, names and descriptions only (no returns)",
+    "index_return.csv": "monthly returns, net of fees, decimal",
+    "index_statistics.csv": "per-index statistics derived from index_return.csv"
+  },
+  "license": "CC BY 4.0"
+}
