@@ -19,6 +19,9 @@ indices are rebalanced monthly.
 | --- | --- |
 | [`index_catalog.csv`](index_catalog.csv) | One row per index — id, display name, and a full description. |
 | [`index_return.csv`](index_return.csv) | The monthly return series for every index, in long (tidy) format. |
+| [`index_catalog_extended.csv`](index_catalog_extended.csv) | The remaining sub-indices - id, name and description. Returns for these are **not** published here; see the PivotalPath Index App. |
+| [`index_statistics.csv`](index_statistics.csv) | Summary statistics per index, derived from `index_return.csv`. |
+| [`metadata.json`](metadata.json) | `as_of`, `updated_at`, refresh cadence and expected reporting lag. |
 
 ## Data dictionary
 
@@ -30,6 +33,10 @@ indices are rebalanced monthly.
 | `name` | string | Human-readable index name. |
 | `abstract` | string | Full methodology description for the index. |
 
+### `index_catalog_extended.csv`
+
+Same three columns as `index_catalog.csv`. These are the deeper sub-indices of the published hierarchy: they are listed so the full index family is visible, but **their return series are not published in this repository**. For those, see the PivotalPath Index App.
+
 ### `index_return.csv`
 
 | Column | Type | Description |
@@ -40,8 +47,11 @@ indices are rebalanced monthly.
 
 > [!NOTE]
 > Returns are **decimals, not percentages**, and the data is in **long
-> format** (one row per index-month). History runs from **1998-01** to the most
-> recent reported month.
+> format** (one row per index-month). History runs from **1998-01** for nine
+> of the ten published indices. `iQNT` begins **2003-01**, the point at which
+> its underlying sub-groups first reached viable constituent counts. Exact
+> per-index coverage is in `index_statistics.csv` (`coverage_start`,
+> `months`).
 
 ## Indices
 
