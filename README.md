@@ -21,6 +21,7 @@ indices are rebalanced monthly.
 | [`index_return.csv`](index_return.csv) | The monthly return series for every index, in long (tidy) format. |
 | [`index_catalog_extended.csv`](index_catalog_extended.csv) | The remaining sub-indices - id, name and description. Returns for these are **not** published here; see the PivotalPath Index App. |
 | [`index_statistics.csv`](index_statistics.csv) | Summary statistics per index, derived from `index_return.csv`. |
+| [`cy_returns.csv`](cy_returns.csv) | Calendar-year returns, one row per index-year. |
 | [`metadata.json`](metadata.json) | `as_of`, `updated_at`, refresh cadence and expected reporting lag. |
 
 ## Data dictionary
@@ -47,7 +48,7 @@ Same three columns as `index_catalog.csv`. These are the deeper sub-indices of t
 
 > [!NOTE]
 > Returns are **decimals, not percentages**, and the data is in **long
-> format** (one row per index-month). History runs from **1998-01** for nine
+> format** (one row per index-month). History runs from **2000-01** for nine
 > of the ten published indices. `iQNT` begins **2003-01**, the point at which
 > its underlying sub-groups first reached viable constituent counts. Exact
 > per-index coverage is in `index_statistics.csv` (`coverage_start`,
@@ -116,23 +117,27 @@ appropriate credit to PivotalPath.
 
 <!-- STATS:START -->
 
-| Index | From | Months | Ann. return | Ann. vol | Sharpe | Return/vol | Max DD | Beta (S&P) | R² |
-|---|---|---|---|---|---|---|---|---|---|
-| `iCRD` | 1998-01 | 342 | 8.96% | 4.94% | 1.33 | 1.81 | -17.51% | 0.17 | 0.29 |
-| `iEQD` | 1998-01 | 342 | 11.21% | 7.30% | 1.21 | 1.54 | -18.50% | 0.37 | 0.60 |
-| `iEQS` | 1998-01 | 342 | 12.11% | 9.37% | 1.05 | 1.29 | -26.11% | 0.43 | 0.49 |
-| `iEVD` | 1998-01 | 342 | 9.84% | 7.13% | 1.06 | 1.38 | -21.24% | 0.31 | 0.44 |
-| `iGBM` | 1998-01 | 342 | 8.55% | 6.07% | 1.03 | 1.41 | -9.43% | 0.01 | 0.00 |
-| `iHFC` | 1998-01 | 342 | 9.71% | 4.81% | 1.52 | 2.02 | -12.82% | 0.19 | 0.37 |
-| `iMFT` | 1998-01 | 342 | 7.55% | 9.76% | 0.58 | 0.77 | -15.36% | -0.12 | 0.03 |
-| `iMST` | 1998-01 | 342 | 9.25% | 4.57% | 1.51 | 2.02 | -15.05% | 0.13 | 0.19 |
-| `iQNT` | 2003-01 | 282 | 6.15% | 4.55% | 0.95 | 1.35 | -19.18% | 0.13 | 0.18 |
-| `iVOL` | 1998-01 | 342 | 9.62% | 6.34% | 1.16 | 1.52 | -8.41% | -0.05 | 0.02 |
+| Index | From | Months | Ann. return | Ann. vol | Sharpe | Return/vol | Max DD | Beta (S&P) | R² | 3Y ann. | 1Y cum. | YTD cum. |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| `iCRD` | 2000-01 | 318 | 8.92% | 4.87% | 1.39 | 1.83 | -17.51% | 0.17 | 0.28 | 8.91% | 7.29% | 3.48% |
+| `iEQD` | 2000-01 | 318 | 9.82% | 7.04% | 1.10 | 1.39 | -18.50% | 0.37 | 0.65 | 14.33% | 16.93% | 8.78% |
+| `iEQS` | 2000-01 | 318 | 13.23% | 8.40% | 1.31 | 1.58 | -20.57% | 0.40 | 0.53 | 21.14% | 42.02% | 16.47% |
+| `iEVD` | 2000-01 | 318 | 9.37% | 6.87% | 1.06 | 1.36 | -21.24% | 0.30 | 0.44 | 12.54% | 15.97% | 8.17% |
+| `iGBM` | 2000-01 | 318 | 7.86% | 5.90% | 0.98 | 1.33 | -9.43% | 0.01 | 0.00 | 7.48% | 10.64% | 4.54% |
+| `iHFC` | 2000-01 | 318 | 9.35% | 4.80% | 1.49 | 1.95 | -12.82% | 0.20 | 0.39 | 11.43% | 15.53% | 7.30% |
+| `iMFT` | 2000-01 | 318 | 7.26% | 9.35% | 0.59 | 0.78 | -15.36% | -0.10 | 0.03 | 2.16% | 17.09% | 7.12% |
+| `iMST` | 2000-01 | 318 | 9.18% | 4.20% | 1.68 | 2.19 | -15.05% | 0.13 | 0.23 | 10.90% | 13.60% | 6.47% |
+| `iQNT` | 2003-01 | 282 | 6.15% | 4.55% | 0.95 | 1.35 | -19.18% | 0.13 | 0.18 | 10.39% | 4.00% | 1.68% |
+| `iVOL` | 2000-01 | 318 | 8.52% | 5.01% | 1.29 | 1.70 | -4.64% | -0.06 | 0.04 | 4.19% | 5.35% | 3.94% |
 
 *Since inception, through 2026-06. Full precision and the trailing 36-month window are in [`index_statistics.csv`](index_statistics.csv).*
 
 - **Sharpe** is annualised and excess of the risk-free rate (3-month U.S. T-Bill, FRED `DGS3MO`), consistent with PivotalPath's published factsheets.
 - **Return/vol** is the raw ratio of annualised return to annualised volatility, with *no* risk-free subtraction. It is not a Sharpe ratio and should not be quoted as one.
 - **Beta**, **R²**, correlation and the intercept come from a regression of **raw** index returns on **raw** S&P 500 **total return** — no risk-free subtraction. The intercept is published as `intercept_sp500_ann`, *not* as alpha: Jensen's alpha is defined on excess returns and this is not that. Read beta and R² together: where R² is low the index is largely unexplained by equity market moves, and the corresponding intercept carries little meaning.
+- **Trailing periods** follow one rule, stated in every column name: periods longer than a year are **annualised** (`ann_return_2y`, `_3y`, `_5y`, `_10y`), periods of a year or less are **cumulative** (`cum_return_1y`, `cum_return_ytd`, `cum_return_mtd`). A window is published only when every month in it is present; otherwise the cell is **empty**, never zero.
+- **Quarters** are published under their calendar name (`q_2026Q2`), never a relative one. A column named for a quarter means the same thing permanently; the set rolls forward as quarters complete, so read the header rather than assuming a fixed position.
+- **Calendar-year returns** are in [`cy_returns.csv`](cy_returns.csv), one row per index-year. The running year carries `partial=1` and its `months` count, so it can never be read as a full year.
+- Only **Sharpe** uses excess returns. Every other figure - trailing periods and calendar years included - is on raw returns.
 
 <!-- STATS:END -->
