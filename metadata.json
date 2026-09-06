@@ -1,7 +1,7 @@
 {
   "as_of": "2026-06",
   "coverage_start": "2000-01",
-  "updated_at": "2026-09-05T00:00:39-0400",
+  "updated_at": "2026-09-06T00:00:35-0400",
   "refresh_cadence": "daily",
   "reporting_lag": "The most recent month is withheld until it is complete, so as_of normally trails the current month by one to two months. A file refreshed today can legitimately carry an older as_of.",
   "coverage_note": "History is published from 2000-01, the inception date on the PivotalPath factsheets. iQNT begins later; per-index coverage is in index_statistics.csv (coverage_start, months).",
