@@ -19,7 +19,6 @@ indices are rebalanced monthly.
 | --- | --- |
 | [`index_catalog.csv`](index_catalog.csv) | One row per index — id, display name, and a full description. |
 | [`index_return.csv`](index_return.csv) | The monthly return series for every index, in long (tidy) format. |
-| [`index_catalog_extended.csv`](index_catalog_extended.csv) | The remaining sub-indices - id, name and description. Returns for these are **not** published here; see the PivotalPath Index App. |
 | [`index_statistics.csv`](index_statistics.csv) | Summary statistics per index, derived from `index_return.csv`. |
 | [`cy_returns.csv`](cy_returns.csv) | Calendar-year returns, one row per index-year. |
 | [`benchmark_reference.csv`](benchmark_reference.csv) | The S&P 500's own return, volatility and drawdown over the same windows. |
@@ -34,10 +33,6 @@ indices are rebalanced monthly.
 | `id` | string | Stable index identifier (e.g. `iHFC`). Join key to `index_return.csv`. |
 | `name` | string | Human-readable index name. |
 | `abstract` | string | Full methodology description for the index. |
-
-### `index_catalog_extended.csv`
-
-Same three columns as `index_catalog.csv`. These are the deeper sub-indices of the published hierarchy: they are listed so the full index family is visible, but **their return series are not published in this repository**. For those, see the PivotalPath Index App.
 
 ### `index_return.csv`
 
