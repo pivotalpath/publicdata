@@ -2,7 +2,7 @@
   "tier": "public",
   "as_of": "2026-07",
   "coverage_start": "2000-01",
-  "updated_at": "2026-09-23T00:01:19-0400",
+  "updated_at": "2026-09-23T16:45:06-0400",
   "refresh_cadence": "daily",
   "reporting_lag": "The most recent month is withheld until it is complete, so as_of normally trails the current month by one to two months. A file refreshed today can legitimately carry an older as_of.",
   "coverage_note": "History is published from 2000-01, the inception date on the PivotalPath factsheets. iQNT begins later; per-index coverage is in index_statistics.csv (coverage_start, months).",
@@ -12,7 +12,8 @@
     "index_statistics.csv": "per-index statistics derived from index_return.csv - since inception, trailing periods, named quarters, alpha (raw and Jensen's) and downside capture",
     "cy_returns.csv": "calendar-year returns, one row per index-year, plus the SP500TR benchmark under the same shape",
     "quarterly_returns.csv": "quarterly returns, one row per index-quarter over the full history, plus the SP500TR benchmark under the same shape",
-    "benchmark_reference.csv": "S&P 500 Total Return reference - return, volatility and drawdown over the same windows as the capture ratios"
+    "benchmark_reference.csv": "S&P 500 Total Return reference - return, volatility and drawdown over the same windows as the capture ratios",
+    "composite_rolling_correlation.csv": "36-month rolling correlation of the composite (iHFC) to the S&P 500, one row per month, full history"
   },
   "license": "CC BY 4.0"
 }
