@@ -1,0 +1,295 @@
+location,managers
+New York,906
+London,354
+Hong Kong,178
+Other,125
+San Francisco,113
+Greenwich,81
+Boston,74
+"Chicago, IL",63
+Singapore,53
+Stamford,49
+Texas,46
+"Los Angeles, CA",43
+Florida,31
+New York Metro,31
+"Dallas, TX",23
+Toronto,18
+Geneva,14
+"Denver, CO",13
+"Sao Paulo, Brazil",13
+"Miami, FL",12
+Paris,12
+Tokyo,12
+"Stockholm, Sweden",11
+Miami,9
+"London, UK",8
+"Minneapolis, MN",8
+"Saint Helier, Jersey",8
+"Sydney, Australia",8
+Australia,7
+Dubai,7
+"Newport Beach, CA",7
+<Unknown>,6
+"Atlanta, GA",6
+"Houston, TX",6
+"Austin, TX",5
+"Baltimore, MD",5
+"Charlotte, NC",5
+Los Angeles,5
+"Menlo Park, CA",5
+"Oslo, Norway",5
+"Palo Alto, CA",5
+"Santa Monica, CA",5
+"Boca Raton, FL",4
+"Darien, CT",4
+Montreal,4
+"San Francisco, CA, USA",4
+"Seattle, WA",4
+Switzerland,4
+Beijing,3
+"Burlingame, CA",3
+"Cambridge, MA",3
+Chicago,3
+Dallas,3
+"Mill Valley, CA",3
+"Orinda, CA",3
+"Philadelphia, PA",3
+"Salt Lake City, UT",3
+"West Palm Beach, FL",3
+"Zug, Switzerland",3
+Zurich,3
+"Amsterdam, Netherlands",2
+"Arlington, VA",2
+Atlanta,2
+"Bala Cynwyd, PA",2
+"Bellevue, WA",2
+"Carlsbad, CA",2
+"Chevy Chase, MD",2
+"Edina, MN",2
+"Edinburgh, Scotland",2
+Italy,2
+"Little Rock, AR",2
+Luxembourg,2
+Madrid,2
+Malta,2
+"Manhattan Beach, CA",2
+"Melbourne, Australia",2
+"Milan, Italy",2
+"Palm Beach Gardens, FL",2
+"Pfaffikon, Switzerland",2
+"Red Bank, NJ",2
+"Redwood City, CA",2
+"Rio de Janeiro, Brazil",2
+"San Diego, CA",2
+"San Mateo, CA",2
+"Santa Barbara, CA",2
+"Sausalito, CA",2
+"Scarsdale, NY",2
+"Scottsdale, AZ",2
+"Seoul, Korea",2
+"Seoul, South Korea",2
+"Shanghai, China",2
+"Short Hills, NJ",2
+South Africa,2
+Vancouver,2
+"Washington, DC",2
+"Wayzata, MN",2
+"Westport, CT",2
+Abu Dhabi,1
+"Alpharetta, GA",1
+"Alpine, UT",1
+Austin,1
+"Aventura, FL",1
+"Basking Ridge, NJ",1
+"Belmont, CA",1
+"Bend, OR",1
+"Berkeley, CA",1
+"Berwyn, PA",1
+Bethesda,1
+"Beverly Hills, CA",1
+"Beverly Hills, CA, USA",1
+"Boston, MA",1
+"Boynton Beach, FL",1
+Brazil,1
+Brussels,1
+Bryn Mawr,1
+Buenos Aires,1
+"Burlington, MA",1
+"Burlington, VT",1
+"Cambridge, England",1
+Canada,1
+"Carmel, CA",1
+"Cedar Rapids, IA",1
+"Chadds Ford, PA",1
+"Chappaqua, NY",1
+"Charlottesville, VA",1
+"Charlottesville, Virginia",1
+"Chicago, IL, USA",1
+"Cincinnati, OH",1
+"Cleveland, OH",1
+Cobham,1
+"Cohasset, MA",1
+"Columbia, MD",1
+"Columbus, OH",1
+"Columbus, Ohio",1
+"Coral Gables, FL",1
+"Costa Mesa, CA",1
+Cyprus,1
+"Dallas, TX, USA",1
+"Dayton, OH",1
+"Deerfield, IL",1
+Denver,1
+"Denver, CO, USA",1
+"Detroit, MI",1
+"Dorado, PR",1
+"Dripping Springs, TX",1
+"Durham, NC",1
+"Eagle, ID",1
+"East Rutherford, NJ",1
+"Evanston, IL",1
+"Fairfield, CT",1
+"Farmington Hills, MI",1
+"Feldafing, Germany",1
+"Fort Lauderdale, FL, USA",1
+"Fort Worth, TX",1
+"Foster City, CA",1
+"Geneva, Switzerland",1
+George Town,1
+"George Town, Grand Cayman",1
+"Glendale, CA",1
+"Great Neck, NY",1
+Greece,1
+"Greenbrae, CA",1
+Greeniwch,1
+"Greensboro, Georgia",1
+"Greenville, DE",1
+"Greenwich, CT",1
+"Greenwich, CT, USA",1
+"Greenwood Village, CO",1
+"Grosse Pointe Woods, Michigan",1
+"Grünwald (Munich), Germany",1
+"Guilford, CT",1
+"Hackensack, NJ",1
+"Harrison, NY",1
+"Highland Park, IL",1
+"Holmdel, NJ",1
+Houston,1
+"Incline Village, NV",1
+"Irvington, NY",1
+Isle of Man,1
+Israel,1
+Jersey,1
+"Jersey City, NJ",1
+"Jupiter, FL",1
+"Kirkland, WA",1
+"Kuesnacht, Switzerland",1
+"La Jolla, CA",1
+"Ladera Ranch, CA",1
+"Laguna Beach, CA",1
+"Lakespur, CA",1
+"Lakewood, NJ",1
+"Larkspur, CA",1
+"Larkspur, CA, USA",1
+"Los Angeles, CA, USA",1
+Louisville,1
+"Louisville, KY",1
+"Mahwah, NJ",1
+"Manchester, MA",1
+"McLean, VA",1
+"Memphis, TN",1
+"Menlo Park, California",1
+"Miami Beach, FL",1
+"Middleburg, VA",1
+"Milford, CT",1
+"Milwaukee, WI",1
+Minneapolis,1
+"Minneapolis, Minnesota",1
+"Mission Woods, KS",1
+Monaco,1
+"Montvale, NJ",1
+"Moscow, Russia",1
+"Mumbai, India",1
+"Naperville, IL",1
+"Nashville, TN",1
+"Nassau, Bahamas",1
+Netherlands,1
+"New Albany, OH",1
+"New Canaan, CT",1
+"New York, NY",1
+"New York, NY, USA",1
+"New York, New York, USA",1
+"Newtown, PA",1
+"Oaks, Pennsylvania",1
+"Ocean, Gibraltar",1
+"Old Greenwich, CT",1
+"Overland Park, KS",1
+"Oxford, England",1
+Palm Beach,1
+"Palm Beach, FL",1
+"Park City, UT",1
+"Pepper Pike, OH",1
+"Phoenix, AZ",1
+Pittsburgh,1
+"Plainsboro, NJ",1
+"Plymouth, MN",1
+"Portland, Oregon",1
+Portugal,1
+"Princeton, NJ",1
+"Princeton, New Jersey, USA",1
+"Providence, RI",1
+Puerto Rico,1
+"Quincy, MA",1
+"Radnor, PA",1
+"Ramat Gan, Israel",1
+"Richardson, TX",1
+"Ridgefield, CT",1
+"Ridgewood, NJ",1
+"Rochester, NY",1
+"Rocky Hill, NJ",1
+"Roslyn, NY",1
+"Rotterdam, Netherlands",1
+"Rye, NY",1
+"Rye, NY, USA",1
+Saddle Brook,1
+"Saint Louis, MO",1
+"San Bruno, CA",1
+"San Francisco, California",1
+"San José, Costa Rica",1
+"San Juan, PR",1
+"Schaffhausen, Switzerland",1
+Scotland,1
+"Sheridan, WY, USA",1
+"Simsbury, CT",1
+"South Norwalk, CT",1
+"Southport, CT",1
+Spain,1
+St. Louis,1
+"Stamford, CT, USA",1
+"Stamford, Connecticut",1
+"Stuart, FL",1
+"Summit, NJ",1
+Sweden,1
+Tampa,1
+"Tampa, FL",1
+The Hague,1
+Vienna,1
+"Vienna, Austria",1
+"Waltham, MA",1
+"Warrenville, IL",1
+Washington,1
+"Wayne, PA",1
+"Wellesley, MA",1
+"West Conshohocken, PA",1
+"West Palm Beach, Fl",1
+"Westbury, NY",1
+"Westfield, NJ",1
+"Wheaton, IL",1
+"White Plains, NY",1
+"White Plains, NY, USA",1
+"Whitewater, WI",1
+"Winter Park, FL",1
+"Woodbridge, NJ",1
+"Woodcliff Lake, NJ",1
+"Zionsville, Indiana",1
+Zolezzi,1
