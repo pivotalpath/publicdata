@@ -1,4 +1,4 @@
 id,name,source,window,coverage_start,as_of,months,ann_return,ann_volatility,max_drawdown,cumulative_return
-SP500TR,S&P 500 Total Return,x471 in dpi_pb_factor_ts,si,2000-01,2026-08,320,0.083692,0.151729,-0.509461,7.527437
-SP500TR,S&P 500 Total Return,x471 in dpi_pb_factor_ts,36m,2023-09,2026-08,36,0.21051,0.129333,-0.074902,0.773802
-SP500TR,S&P 500 Total Return,x471 in dpi_pb_factor_ts,120m,2016-09,2026-08,120,0.153822,0.153567,-0.238631,3.182052
+SP500TR,S&P 500 Total Return,x471 in dpi_pb_factor_ts,si,2000-01,2026-09,321,0.083278,0.151507,-0.509461,7.497591
+SP500TR,S&P 500 Total Return,x471 in dpi_pb_factor_ts,36m,2023-10,2026-09,36,0.228956,0.124202,-0.074902,0.856131
+SP500TR,S&P 500 Total Return,x471 in dpi_pb_factor_ts,120m,2016-10,2026-09,120,0.153395,0.153603,-0.238631,3.166582
