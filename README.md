@@ -112,7 +112,7 @@ appropriate credit to PivotalPath.
 
 Commercial use, including redistribution, resale, or incorporation into a paid
 product or service, requires a license from PivotalPath. Contact
-support@pivotalpath.com.
+inquiry@pivotalpath.com.
 
 This license applies to versions of this repository from 2026-11-05 onward.
 Copies obtained earlier remain under the terms they were published with.
