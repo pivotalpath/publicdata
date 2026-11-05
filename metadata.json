@@ -15,5 +15,5 @@
     "benchmark_reference.csv": "S&P 500 Total Return reference - return, volatility and drawdown over the same windows as the capture ratios",
     "composite_rolling_correlation.csv": "36-month rolling correlation of the composite (iHFC) to the S&P 500, one row per month, full history"
   },
-  "license": "CC BY 4.0"
+  "license": "CC BY-NC 4.0"
 }

@@ -6,7 +6,7 @@
 due-diligence firm. Since 2013 we've built unbiased, institutionally-relevant
 data on the hedge fund industry on behalf of allocators and managers. This
 repository is the **public expression of that research**: the monthly return
-series for our headline hedge fund indices, free to use with attribution.
+series for our headline hedge fund indices, free for non-commercial use with attribution.
 
 The indices track funds reporting **monthly performance, net of all fees, in
 USD**, with a minimum track record of 18 months and a minimum AUM of $50mm.
@@ -106,9 +106,16 @@ against anonymized peer distributions. See the full platform →
 
 ## License
 
-Licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE)
-— free to use, share, and adapt, including commercially, as long as you give
+Licensed under [Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)](LICENSE)
+— free to use, share, and adapt for non-commercial purposes, as long as you give
 appropriate credit to PivotalPath.
+
+Commercial use, including redistribution, resale, or incorporation into a paid
+product or service, requires a license from PivotalPath. Contact
+support@pivotalpath.com.
+
+This license applies to versions of this repository from 2026-11-05 onward.
+Copies obtained earlier remain under the terms they were published with.
 
 ## Index statistics
 
