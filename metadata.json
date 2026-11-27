@@ -2,12 +2,12 @@
   "tier": "public",
   "as_of": "2026-09",
   "coverage_start": "2000-01",
-  "updated_at": "2026-11-27T10:46:53-0500",
+  "updated_at": "2026-11-27T16:05:44-0500",
   "refresh_cadence": "daily",
   "reporting_lag": "The most recent month is withheld until it is complete, so as_of normally trails the current month by one to two months. A file refreshed today can legitimately carry an older as_of.",
-  "coverage_note": "History is published from 2000-01, the inception date on the PivotalPath factsheets. iQNT begins later; per-index coverage is in index_statistics.csv (coverage_start, months).",
+  "coverage_note": "History is published from 2000-01, the inception date on the PivotalPath factsheets. Per-index coverage is in index_statistics.csv (coverage_start, months).",
   "files": {
-    "index_catalog.csv": "published indices - id, name, abstract",
+    "index_catalog.csv": "the public indices (public_ids) - id, name, abstract",
     "index_return.csv": "monthly returns, net of fees, decimal",
     "index_statistics.csv": "per-index statistics derived from index_return.csv - since inception, trailing periods, named quarters, alpha (raw and Jensen's) and downside capture",
     "cy_returns.csv": "calendar-year returns, one row per index-year, plus the SP500TR benchmark under the same shape",
@@ -15,7 +15,7 @@
     "benchmark_reference.csv": "S&P 500 Total Return reference - return, volatility and drawdown over the same windows as the capture ratios",
     "composite_rolling_correlation.csv": "36-month rolling correlation of the composite (iHFC) to the S&P 500, one row per month, full history",
     "index_catalog_extended.csv": "every published index - id, name, abstract (reference only)",
-    "index_returns.csv": "monthly returns, net of fees, decimal, for the ids in public_ids"
+    "index_returns.csv": "temporary copy of index_return.csv, to be removed: use index_return.csv"
   },
   "license": "CC BY-NC 4.0",
   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
