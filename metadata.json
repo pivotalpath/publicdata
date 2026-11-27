@@ -2,7 +2,7 @@
   "tier": "public",
   "as_of": "2026-09",
   "coverage_start": "2000-01",
-  "updated_at": "2026-11-27T09:30:33-0500",
+  "updated_at": "2026-11-27T10:09:45-0500",
   "refresh_cadence": "daily",
   "reporting_lag": "The most recent month is withheld until it is complete, so as_of normally trails the current month by one to two months. A file refreshed today can legitimately carry an older as_of.",
   "coverage_note": "History is published from 2000-01, the inception date on the PivotalPath factsheets. iQNT begins later; per-index coverage is in index_statistics.csv (coverage_start, months).",
@@ -13,8 +13,21 @@
     "cy_returns.csv": "calendar-year returns, one row per index-year, plus the SP500TR benchmark under the same shape",
     "quarterly_returns.csv": "quarterly returns, one row per index-quarter over the full history, plus the SP500TR benchmark under the same shape",
     "benchmark_reference.csv": "S&P 500 Total Return reference - return, volatility and drawdown over the same windows as the capture ratios",
-    "composite_rolling_correlation.csv": "36-month rolling correlation of the composite (iHFC) to the S&P 500, one row per month, full history"
+    "composite_rolling_correlation.csv": "36-month rolling correlation of the composite (iHFC) to the S&P 500, one row per month, full history",
+    "index_catalog_extended.csv": "every published index - id, name, abstract (reference only)",
+    "index_returns.csv": "monthly returns, net of fees, decimal, for the ids in public_ids"
   },
   "license": "CC BY-NC 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-nc/4.0/"
+  "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "public_ids": [
+    "iHFC",
+    "iCRD",
+    "iEQD",
+    "iEQS",
+    "iEVD",
+    "iGBM",
+    "iMFT",
+    "iMST",
+    "iVOL"
+  ]
 }
