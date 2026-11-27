@@ -5,8 +5,9 @@
 [PivotalPath](https://www.pivotalpath.com) is a hedge fund research and
 due-diligence firm. Since 2013 we've built unbiased, institutionally-relevant
 data on the hedge fund industry on behalf of allocators and managers. This
-repository is the **public expression of that research**: the monthly return
-series for our headline hedge fund indices, free for non-commercial use with attribution.
+repository is the **public expression of that research**: monthly returns and
+statistics for nine headline hedge fund indices, free for non-commercial use with
+attribution ([CC BY-NC 4.0](LICENSE)).
 
 The indices track funds reporting **monthly performance, net of all fees, in
 USD**, with a minimum track record of 18 months and a minimum AUM of $50mm.
@@ -17,13 +18,15 @@ indices are rebalanced monthly.
 
 | File | What it is |
 | --- | --- |
-| [`index_catalog.csv`](index_catalog.csv) | One row per index — id, display name, and a full description. |
-| [`index_return.csv`](index_return.csv) | The monthly return series for every index, in long (tidy) format. |
+| [`index_catalog.csv`](index_catalog.csv) | The nine indices — id, display name, and a full description. |
+| [`index_return.csv`](index_return.csv) | Monthly returns of the nine indices, in long (tidy) format. |
 | [`index_statistics.csv`](index_statistics.csv) | Summary statistics per index, derived from `index_return.csv`. |
-| [`cy_returns.csv`](cy_returns.csv) | Calendar-year returns, one row per index-year. |
+| [`cy_returns.csv`](cy_returns.csv) | Calendar-year returns, one row per index-year, with the S&P 500 (`SP500TR`). |
+| [`quarterly_returns.csv`](quarterly_returns.csv) | Quarterly returns, one row per index-quarter, with the S&P 500 (`SP500TR`). |
 | [`benchmark_reference.csv`](benchmark_reference.csv) | The S&P 500's own return, volatility and drawdown over the same windows. |
-| [`quarterly_returns.csv`](quarterly_returns.csv) | Quarterly returns, one row per index-quarter. |
-| [`metadata.json`](metadata.json) | `as_of`, `updated_at`, refresh cadence and expected reporting lag. |
+| [`composite_rolling_correlation.csv`](composite_rolling_correlation.csv) | 36-month rolling correlation of the Composite (`iHFC`) to the S&P 500. |
+| [`index_catalog_extended.csv`](index_catalog_extended.csv) | Reference only: id, name and description of every PivotalPath index, including those whose data is not published here. |
+| [`metadata.json`](metadata.json) | `as_of`, `updated_at`, refresh cadence, expected reporting lag and `public_ids`. |
 
 ## Data dictionary
 
@@ -45,20 +48,19 @@ indices are rebalanced monthly.
 
 > [!NOTE]
 > Returns are **decimals, not percentages**, and the data is in **long
-> format** (one row per index-month). History runs from **2000-01** for nine
-> of the ten published indices. `iQNT` begins **2003-01**, the point at which
-> its underlying sub-groups first reached viable constituent counts. Exact
-> per-index coverage is in `index_statistics.csv` (`coverage_start`,
+> format** (one row per index-month). History runs from **2000-01** for all nine
+> indices. Per-index coverage is in `index_statistics.csv` (`coverage_start`,
 > `months`).
 
 ## Indices
+
+The nine indices published here (`public_ids` in `metadata.json`):
 
 | id | Index | Focus |
 | --- | --- | --- |
 | `iHFC` | PivotalPath Composite | All strategies and geographies (the headline index). |
 | `iCRD` | PivotalPath Credit | Strategies trading primarily in credit markets. |
 | `iEQD` | PivotalPath Equity Diversified | Diversified equity long/short across geographies. |
-| `iQNT` | PivotalPath Equity Quant | Systematic, quantitative equity long/short. |
 | `iEQS` | PivotalPath Equity Sector | Sector-focused equity (TMT, Healthcare, Energy, Financials, …). |
 | `iEVD` | PivotalPath Event Driven | Merger arbitrage, special situations, multi-event. |
 | `iGBM` | PivotalPath Global Macro | Discretionary and systematic macro across asset classes. |
